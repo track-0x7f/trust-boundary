@@ -17,6 +17,7 @@
 ## 当前状态
 
 - ✅ **第一案例**: [curl 安全披露信任链测绘](case-studies/curl-trust-chain.md)（完成）
+- ✅ **方法论手册**: [信任边界测绘方法论](methodology/trust-boundary-mapping.md)（初版完成）
 - 🚧 **测绘模板**: [信任链测绘模板](template/trust-chain-map.md)（初版可复用）
 - ⏳ **第二案例**: 待选择
 - ⏳ **模式目录**: 待提炼
@@ -40,6 +41,8 @@ trust-boundary/
 │   ├── README.md          # 概述
 │   ├── sandbox-exercises.md    # 三个沙盘推演案例
 │   └── independence-checklist.md # 行动清单和能力边界
+├── methodology/           # 信任边界测绘方法论（操作手册）
+│   └── trust-boundary-mapping.md # 完整测绘方法论
 ├── patterns/              # 信任边界脆弱性模式目录
 └── template/              # 信任边界测绘模板（可复用）
     └── trust-chain-map.md
