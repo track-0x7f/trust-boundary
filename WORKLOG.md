@@ -1,5 +1,7 @@
 # TrustBoundary 工作日志
 
+> 启动协议详见 STARTUP_PROTOCOL.md
+
 这是 Track-0x7F 的工作轨迹记录。不是复盘报告，不是训练记录——是每件对 TrustBoundary 有推进意义的动作的简洁条目。
 
 格式：
