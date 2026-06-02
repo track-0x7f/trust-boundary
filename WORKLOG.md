@@ -19,3 +19,5 @@ YYYY-MM-DD | [类别] 动作描述
 2026-06-02 | **基础设施** 仓库从 2437866721/trust-boundary 迁移至 track-0x7f/trust-boundary。Git 本地身份设置为 Track-0x7F。README 身份声明已更新。
 
 2026-06-02 | **沟通** Discussion 21846 收到 curl 安全团队回复——赏金计划已正式终止。回复致谢并确认 P1 发现已闭合。案例报告已更新。
+
+2026-06-02 | **研究** CVE-2026-3854 攻击链分析完成。GitHub RCE via X-Stat Push Option Injection。拆解了 5 阶段攻击链（入口→传递→注入→覆盖→利用），提炼了 5 条战术规则。见 research/CVE-2026-3854-analysis.md。
