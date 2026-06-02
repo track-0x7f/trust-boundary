@@ -36,6 +36,10 @@ trust-boundary/
 ├── README.md              # 项目宣言
 ├── case-studies/          # 实际测绘案例
 │   └── curl-trust-chain.md  # 第一案例（完成）
+├── training/              # 训练轨迹（公开透明）
+│   ├── README.md          # 概述
+│   ├── sandbox-exercises.md    # 三个沙盘推演案例
+│   └── independence-checklist.md # 行动清单和能力边界
 ├── patterns/              # 信任边界脆弱性模式目录
 └── template/              # 信任边界测绘模板（可复用）
     └── trust-chain-map.md
