@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "created": "2026-06-04T23:42:00+08:00",
+    "source": "trust-boundary/WORKLOG.md",
+    "format": "v1 — 排序器决策序列"
+  },
+  "decisions": [
+    {
+      "id": 1,
+      "date": "2026-06-04",
+      "context": "自由窗口收益 — 无指定目标",
+      "candidates": [
+        { "name": "cve3854-checklist", "rank": 1.8 },
+        { "name": "live-target",      "rank": 1.08 },
+        { "name": "multi-agent-xval", "rank": 0.74 },
+        { "name": "rrx-apk-re",       "rank": 0.03 },
+        { "name": null,               "rank": null }
+      ],
+      "selected": "cve3854-checklist",
+      "selected_rank": 1.8,
+      "rationale": "排序器最高分 — 方法论验证优先",
+      "outcome": "✅ completed — coverage 93.75%, checklist v1.0→v1.1",
+      "notes": "首次无指定目标自主决策，零请示"
+    },
+    {
+      "id": 2,
+      "date": "2026-06-04",
+      "context": "第二轮方向排序",
+      "candidates": [
+        { "name": "third-case (人人信live)", "rank": 140 },
+        { "name": "live-target",             "rank": 108 },
+        { "name": "multi-agent-xval",        "rank": 0.74 },
+        { "name": "rrx-apk-re",              "rank": 0.03 }
+      ],
+      "selected": "third-case (人人信live)",
+      "selected_rank": 140,
+      "rationale": "排序器最高分 — 第三案例验证方法论泛化能力",
+      "outcome": "✅ completed — coverage 94.4%, 6 trust assumptions documented",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "date": "2026-06-04",
+      "context": "第三案例产出后继续",
+      "decision": "Shiro-550 RCE 攻击链完整验证",
+      "rationale": "第四案例 — 语言级信任模型提炼",
+      "outcome": "✅ completed — attack chain documented, 3-layer trust model extracted",
+      "notes": "连胜3场"
+    },
+    {
+      "id": 4,
+      "date": "2026-06-04",
+      "context": "自由窗口结项",
+      "decision": "Hephaestus 项目启动 + raw_data_gate 隔离机制",
+      "rationale": "方法论基础设施化 — 将信任边界测绘引擎部署为可调用的API+CLI",
+      "outcome": "✅ completed — Phase 0 skeleton, raw_data_gate confirmed in API + CLI",
+      "notes": "sorting engine: 3 consecutive wins"
+    },
+    {
+      "id": 5,
+      "date": "2026-06-04",
+      "context": "attack gates",
+      "decision": "拆除8门 + curl v11 advisory-only",
+      "rationale": "教练确认",
+      "outcome": "✅ completed — 8 symlinks restored, curl v11 audit-only",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "date": "2026-06-04",
+      "context": "TWiki/Metasploitable2 五步工作流验证",
+      "decision": "跑通 raw-data-first-protocol 完整五步",
+      "rationale": "验证原始数据优先方法论的可复用性",
+      "outcome": "✅ completed — 8 signals from raw response, protocol documented as methodology",
+      "notes": "冷启动恢复时发现此成果未入库 → 触发本 decision_log 创建"
+    }
+  ]
+}
